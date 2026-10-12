@@ -12,3 +12,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::buttonClickHandler() {
+    this->ui->lineEditUserID->setText("");
+    this->ui->lineEditPassword->setText("");
+}
